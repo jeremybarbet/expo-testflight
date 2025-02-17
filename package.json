@@ -9,7 +9,7 @@
     "react-native",
     "expo",
     "expo-testflight",
-    "ExpoTestflight"
+    "ExpoTestFlight"
   ],
   "license": "MIT",
   "main": "build/index.js",
