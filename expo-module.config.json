@@ -8,5 +8,10 @@
     "modules": [
       "ExpoTestFlightModule"
     ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.testflight.ExpoTestFlightModule"
+    ]
   }
 }
