@@ -1,6 +1,6 @@
 {
   "name": "expo-testflight",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple expo module to check if the app is running on TestFlight",
   "author": "Jérémy Barbet <jeremgraph@gmail.com> (https://github.com/jeremybarbet)",
   "repository": "https://github.com/jeremybarbet/expo-testflight",
