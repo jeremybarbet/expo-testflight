@@ -17,7 +17,7 @@ npx expo prebuild
 ```tsx
 import { isTestFlight } from 'expo-testflight';
 
-if (isTestFlight()) {
+if (isTestFlight) {
   console.log('Running on TestFlight');
 } else {
   console.log('Not running on TestFlight');
