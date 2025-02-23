@@ -4,8 +4,18 @@ public class ExpoTestFlightModule: Module {
   public func definition() -> ModuleDefinition {
     Name("ExpoTestFlight")
 
-    Constants([
-      "isTestFlight": Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt",
-    ])
+    Constants {
+      let isTestFlight: Bool
+
+#if DEBUG || targetEnvironment(simulator)
+      isTestFlight = false
+#else
+      isTestFlight = Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
+#endif
+
+      return [
+        "isTestFlight": isTestFlight
+      ]
+    }
   }
 }
