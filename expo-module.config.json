@@ -1,17 +1,10 @@
 {
   "platforms": [
-    "apple",
-    "android",
-    "web"
+    "apple"
   ],
   "apple": {
     "modules": [
       "ExpoTestFlightModule"
-    ]
-  },
-  "android": {
-    "modules": [
-      "expo.modules.testflight.ExpoTestFlightModule"
     ]
   }
 }

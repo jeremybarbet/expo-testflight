@@ -1,3 +1,3 @@
 import ExpoTestFlightModule from "./ExpoTestFlightModule";
 
-export const isTestFlight: boolean = ExpoTestFlightModule.isTestFlight;
+export const isTestFlight = ExpoTestFlightModule.isTestFlight;
